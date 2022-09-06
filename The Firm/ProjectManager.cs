@@ -19,5 +19,15 @@ namespace The_Firm
         {
             this.email = email;
         }
+        public void GetProperties()
+        {
+            Console.WriteLine("");
+            Console.WriteLine(this.FirstName);
+            Console.WriteLine(this.LastName);
+            Console.WriteLine(this.CPR);
+            Console.WriteLine(this.PhoneNumber);
+            Console.WriteLine(this.Email);
+            Console.WriteLine("");
+        }
     }
 }

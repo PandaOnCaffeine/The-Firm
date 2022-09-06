@@ -19,5 +19,14 @@ namespace The_Firm
         {
             this.phoneNumber = phoneNumber;
         }
+        public void GetProperties()
+        {
+            Console.WriteLine("");
+            Console.WriteLine(this.FirstName);
+            Console.WriteLine(this.LastName);
+            Console.WriteLine(this.CPR);
+            Console.WriteLine(this.PhoneNumber);
+            Console.WriteLine("");
+        }
     }
 }
