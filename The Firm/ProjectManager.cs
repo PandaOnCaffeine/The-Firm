@@ -19,6 +19,7 @@ namespace The_Firm
         {
             this.email = email;
         }
+        //Overrides the method from the Employee class
         protected internal override void GetProperties()
         {
             Console.WriteLine(this.FirstName);

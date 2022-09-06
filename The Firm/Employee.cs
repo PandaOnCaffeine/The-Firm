@@ -25,6 +25,7 @@ namespace The_Firm
             this.lastName = lastName;
             this.cpr = cpr;
         }
+        //makes a abstract method that the subclasses can initiate and override the method
         protected internal abstract void GetProperties();
     }
 }

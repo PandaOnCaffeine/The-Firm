@@ -19,6 +19,7 @@ namespace The_Firm
         {
             this.phoneNumber = phoneNumber;
         }
+        //Overrides the method from the Employee class
         protected internal override void GetProperties()
         {
             Console.WriteLine(this.FirstName);
