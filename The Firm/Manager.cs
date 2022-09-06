@@ -19,9 +19,8 @@ namespace The_Firm
         {
             this.phoneNumber = phoneNumber;
         }
-        public void GetProperties()
+        protected internal override void GetProperties()
         {
-            Console.WriteLine("");
             Console.WriteLine(this.FirstName);
             Console.WriteLine(this.LastName);
             Console.WriteLine(this.CPR);

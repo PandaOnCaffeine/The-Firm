@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace The_Firm
 {
-    internal class Employee
+    internal abstract class Employee
     {
         //Properties
         private string firstName;
@@ -25,6 +25,7 @@ namespace The_Firm
             this.lastName = lastName;
             this.cpr = cpr;
         }
+        protected internal abstract void GetProperties();
     }
 }
 
